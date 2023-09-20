@@ -3,10 +3,10 @@
 
 int main()
 {
-    int n;
-    scanf("%d", &n);
+    int n,n1;
+    scanf("%d %d",&n1,&n);
 
-    for (int num = 1; num <= n; num++)
+    for (int num = n1; num <= n; num++)
     {
         int count = 0;
         int arm = 0;
