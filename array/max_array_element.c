@@ -2,17 +2,17 @@
 #include<math.h>
 int main()
 {
-    int arr[10];
-    int arr2[10];
+    int arr[5];
     for (int i = 0; i < 5; i++)
     {
         scanf("%d",&arr[i]);
     }
+    int m = arr[0];
     for (int i = 0; i < 5; i++)
     {
-        printf("%d",arr[i]);
+        if(arr[i]>m)
+        m = arr[i];
     }
-
-    
+    printf("Max number is : %d",m);
     return 0;
 }

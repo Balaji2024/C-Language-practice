@@ -10,9 +10,12 @@ int main()
     }
     for (int i = 0; i < 5; i++)
     {
-        printf("%d",arr[i]);
+        arr2[i] = arr[i];
     }
-
-    
+    printf("Reverse array : ");
+    for (int i = 4; i >= 0; i--)
+    {
+        printf("%d ",arr2[i]);
+    }
     return 0;
 }

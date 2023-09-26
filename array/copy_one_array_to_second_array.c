@@ -10,7 +10,12 @@ int main()
     }
     for (int i = 0; i < 5; i++)
     {
-        printf("%d",arr[i]);
+        arr2[i] = arr[i];
+    }
+    printf("Second array : ");
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%d",arr2[i]);
     }
 
     
