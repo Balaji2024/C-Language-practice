@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Balaji/OneDrive/Desktop/C Language Practice",
-      "program": "c:/Users/Balaji/OneDrive/Desktop/C Language Practice/build/Debug/outDebug",
+      "cwd": "c:/Users/Balaji/OneDrive/Desktop/C Language Practice/Function",
+      "program": "c:/Users/Balaji/OneDrive/Desktop/C Language Practice/Function/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
